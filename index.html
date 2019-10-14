@@ -2,31 +2,41 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <title>TEMP CONVERTER</title>
+    <!--STYLE SHEET-->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <title></title>
   </head>
   <body>
 
+<!--THE MAIN DIV THAT WILL HOLD THE APPILCATION BOX-->
     <div id="tempBox">
       <form class="tempForm" action="index.html" method="post">
           <h2>Input a New Temperature</h2>
           <input id="userNum" type="number" onfocus="''" name="" value="">
+
+          <!--THIS SECTION HOLDS THE BUTTONS TO CHANGE THE TEMPERATURE FROM A BASE METRIC-->
            <section>
                <button id="celsButton" type="button" name="button">FROM CELS</button>
                <button id="kelvButton"  type="button" name="button">FROM KELVIN</button>
                <button id="farenButton" type="button" name="button">FROM FAREN</button>
           </section>
       </form>
+
+      <!--THIS DIV WILL HOLD THE FIRST VALUE CHANGE-->
       <div id="transferTemp1">
         <h3 id="taip1"></h3>
         <p id="one"></p>
       </div>
+
+      <!--THIS DIV WILL HOLD THE SECOND VALUE CHANGE-->
       <div id="transferTemp2">
         <h3 id="taip2"></h3>
         <p id="two"></p>
       </div>
 
     </div>
+
+    <!--THE JS FILE-->
 <script type="text/javascript" src="script.js">
 
 </script>
