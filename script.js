@@ -1,9 +1,9 @@
-
+//THIS SECTION SETS UP THE EVENT LISTENERS FOR THE CALCULATE FUNCTIONS ON THE BUTTONS
 document.getElementById('celsButton').addEventListener('click', celsTransfer );
 document.getElementById('kelvButton').addEventListener('click', kelvTransfer);
 document.getElementById('farenButton').addEventListener('click', farenTransfer);
 
-
+//THE FUNCTION TO CHANGE THE VALUES FROM A CELSIUS-BASE METRIC
 function celsTransfer () {
   var celsius = parseInt(document.getElementById('userNum').value, 10);
 
@@ -20,6 +20,7 @@ function celsTransfer () {
   document.getElementById('two').innerText  = `${newKelv}`;
 }
 
+//THE FUNCTION TO CHANGE THE VALUES FROM A KELVIN-BASE METRIC
 function kelvTransfer () {
   var kelvin = parseInt(document.getElementById('userNum').value, 10);
 
@@ -37,7 +38,7 @@ function kelvTransfer () {
 }
 
 
-
+//THEFUNCTION TO CHANGE THE VALUES FROM A FAHRENHEIT-BASE METRIC
 function farenTransfer () {
   var farenheit = parseInt(document.getElementById('userNum').value, 10);
 
