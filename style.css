@@ -1,3 +1,4 @@
+/* THE DISPLAY FOR THE APPLICATION BOX*/
 #tempBox {
   display : flex;
   flex-direction : column;
@@ -11,17 +12,22 @@
   margin : 0 auto;
   border-radius : 5px;
 }
+
+/*THE FORM TO INPUT THE NUMBER*/
 form {
   display : flex;
   flex-direction : column;
   justify-content : center;
   align-content : center;
 }
+
+/*TITLE*/
 h2 {
   font-size : 7vh;
   color : black;
 }
 
+/*THE SECTION THAT HOLDS ALL THE BUTTONS*/
 form section {
   display : flex;
   flex-direction : row;
