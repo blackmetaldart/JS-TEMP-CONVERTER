@@ -35,6 +35,6 @@ form section {
   justify-content : space-around;
 }
 
-#transferTemp1 {
+#transferTemp1, #transferTemp2 {
   margin : 0 auto;
 }
