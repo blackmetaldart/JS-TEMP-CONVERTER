@@ -37,5 +37,6 @@ form section {
 
 #transferTemp1, #transferTemp2 {
   margin : 0 auto;
-  width : 40%;
+  width : 35%;
+  margin-top : 7%;
 }
