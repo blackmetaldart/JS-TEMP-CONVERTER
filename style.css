@@ -35,6 +35,10 @@ form section {
   justify-content : space-around;
 }
 
+form input {
+  text-align: center;
+}
+
 #transferTemp1, #transferTemp2 {
   margin : 0 auto;
   width : 35%;
